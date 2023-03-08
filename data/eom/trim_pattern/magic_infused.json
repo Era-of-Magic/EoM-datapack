@@ -1,0 +1,7 @@
+{
+    "asset_id": "eom:magic_infused",
+    "description": {
+        "text":"Magic Infused"
+    },
+    "template_item": "minecraft:command_block_minecart"
+}

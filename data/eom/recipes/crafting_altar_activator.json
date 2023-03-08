@@ -1,0 +1,22 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "LAL",
+    "AEA",
+    "LAL"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:ender_pearl"
+      },
+    "A": {
+      "item": "minecraft:amethyst_block"
+      },
+    "L": {
+      "item": "minecraft:lapis_lazuli"
+      }
+    },
+  "result": {
+    "item": "minecraft:knowledge_book"
+  }
+}

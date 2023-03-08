@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:structure_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Crafting Altar Activator\",\"color\":\"#B82BFF\",\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"Rightclick the Anvil of\",\"color\":\"gray\"}','{\"text\":\"the altar structure\",\"color\":\"gray\"}','{\"text\":\"with this item\",\"color\":\"gray\"}']},CustomModelData:100100,ItemID:[\"crafting_altar_activator\"]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

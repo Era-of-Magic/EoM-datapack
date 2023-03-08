@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:structure_void",
+            "nbt": "{CustomModelData:3}"
+        },
+        "title": "Era of Magic",
+        "description": "A new era is about to begin, the era of magic, and with it comes some great changes in the world.",
+        "background": "minecraft:textures/block/amethyst_block.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

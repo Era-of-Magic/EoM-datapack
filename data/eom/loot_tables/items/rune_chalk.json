@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:ghast_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Rune Chalk\",\"color\":\"white\",\"italic\":false}'},CustomModelData:2,ItemID:[\"rune_chalk\"],EntityTag:{id:\"minecraft:marker\",Tags:[\"defaultcircle\"]}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

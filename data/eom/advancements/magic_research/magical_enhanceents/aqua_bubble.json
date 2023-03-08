@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stick",
+            "nbt": "{CustomModelData:500}"
+        },
+        "title": "Aqua Bubble",
+        "description": " ",
+        "frame": "task",
+        "show_toast": true,
+        "hidden": true
+    },
+    "parent": "eom:magic_research/magical_enhancements",
+    "criteria": {
+        "learn_skill": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

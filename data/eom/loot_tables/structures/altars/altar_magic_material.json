@@ -1,0 +1,144 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 4,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 14,
+                    "name": "minecraft:jigsaw",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Magic Dust\",\"color\":\"#FFA1F9\",\"italic\":false}'},CustomModelData:1,ItemID:[\"magic_dust\"]}"
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 14,
+                    "name": "minecraft:diamond",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:budding_amethyst"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 50,
+                    "name": "minecraft:cobweb",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 7
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 20,
+                    "name": "minecraft:amethyst_shard",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:empty",
+                    "weight": 96
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:warped_fungus_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Wooden Wand\",\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"Max Spells: [1]\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Mana Consumption: [x5]\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,Damage:500,CustomModelData:100000,Spells:[],SpellNo:[1],MaxSpells:[1],ItemID:[\"wooden_wand\"],tags:[\"casting_tool\"]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "minecraft:item",
+                            "weight": 1,
+                            "name": "minecraft:jigsaw",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_nbt",
+                                    "tag": "{display:{Name:'{\"text\":\"Spell Scroll\",\"italic\":false}',Lore:['{\"text\":\" \"}','[{\"text\":\"Spell: [\",\"color\":\"gray\",\"italic\":false},{\"text\":\"Freeze\",\"color\":\"aqua\",\"italic\":false},{\"text\":\"]\",\"color\":\"gray\",\"italic\":false}]']},CustomModelData:1000,ItemID:[\"freeze_scroll\"],Enchantments:[{}]}"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "weight": 1,
+                            "name": "minecraft:jigsaw",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_nbt",
+                                    "tag": "{display:{Name:'{\"text\":\"Spell Scroll\",\"italic\":false}',Lore:['{\"text\":\" \"}','[{\"text\":\"Spell: [\",\"color\":\"gray\",\"italic\":false},{\"text\":\"Magic Wall\",\"color\":\"light_purple\",\"italic\":false},{\"text\":\"]\",\"color\":\"gray\",\"italic\":false}]']},CustomModelData:1000,ItemID:[\"magic_wall_scroll\"],Enchantments:[{}]}"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "weight": 1,
+                            "name": "minecraft:jigsaw",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_nbt",
+                                    "tag": "{display:{Name:'{\"text\":\"Spell Scroll\",\"italic\":false}',Lore:['{\"text\":\" \"}','[{\"text\":\"Spell: [\",\"color\":\"gray\",\"italic\":false},{\"text\":\"Fireball\",\"color\":\"red\",\"italic\":false},{\"text\":\"]\",\"color\":\"gray\",\"italic\":false}]']},CustomModelData:1000,ItemID:[\"fireball_scroll\"],Enchantments:[{}]}"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "weight": 1,
+                            "name": "minecraft:jigsaw",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_nbt",
+                                    "tag": "{display:{Name:'{\"text\":\"Spell Scroll\",\"italic\":false}',Lore:['{\"text\":\" \"}','[{\"text\":\"Spell: [\",\"color\":\"gray\",\"italic\":false},{\"text\":\"Rock Throw\",\"color\":\"#6B3719\",\"italic\":false},{\"text\":\"]\",\"color\":\"gray\",\"italic\":false}]']},CustomModelData:1000,ItemID:[\"rock_throw_scroll\"],Enchantments:[{}]}"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

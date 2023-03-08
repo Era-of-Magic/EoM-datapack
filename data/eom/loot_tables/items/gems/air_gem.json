@@ -1,0 +1,23 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:jigsaw",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Air Gem\",\"color\":\"#D1FFAD\",\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"A magic stone containing\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"the element of air\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:100003,ItemID:[\"air_gem\"]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

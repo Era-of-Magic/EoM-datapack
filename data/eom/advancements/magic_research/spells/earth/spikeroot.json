@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_void",
+      "nbt": "{CustomModelData:200403}"
+    },
+    "title": "Spikeroot  ",
+    "description": "You learned the Spikeroot spell\n\nDamage: 3/10t\nDistance: ..10\nAoE: 1.5\nDuration: 15 sec\nBase Cost: 100",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "eom:magic_research/spells/earth/rock_throw",
+  "criteria": {
+    "learn_spell": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:value_check",
+                        "value": {
+                            "type": "minecraft:score",
+                            "target": "this",
+                            "score": "click"
+                        },
+                        "range": {
+                            "min": 1,
+                            "max": 100
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "eom:spells/which_r_click"
+    }
+}

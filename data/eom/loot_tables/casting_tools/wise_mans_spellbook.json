@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:warped_fungus_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Wise Man\\'s Spellbook\",\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"Max Spells: [10]\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Mana Consumption: [x0.5]\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,Damage:50,CustomModelData:100004,Spells:[],SpellNo:[1],MaxSpells:[10],ItemID:[\"wise_mans_spellbook\"],tags:[\"casting_tool\"]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": [
+        {
+            "text": "Skill Points",
+            "color": "yellow",
+            "italic": false
+        },
+        {
+            "text": ": ",
+            "color": "white",
+            "italic": false
+        },
+        {
+            "score": {
+                "name": "temp",
+                "objective": "skillpoints"
+            },
+            "color": "white"
+        }
+    ]
+}

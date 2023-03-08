@@ -1,0 +1,25 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:structure_block"
+                    ],
+                    "nbt": "{ItemID:[\"crafting_altar_activator\"]}"
+                },
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "minecraft:anvil"
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "eom:altars/crafting_altar/build_altar/detect_center_block"
+    }
+}

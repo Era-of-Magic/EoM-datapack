@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "offhand": {
+                            "items": [
+                                "minecraft:ghast_spawn_egg"
+                            ],
+                            "nbt": "{ItemID:[\"sponge\"]}"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "eom:chalk/give_back_sponge_offhand"
+    }
+}

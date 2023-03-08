@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Small Mana Potion\",\"color\":\"#1C99F6\",\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"Recovers 30 Mana\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:100,ItemID:[\"small_mana_potion\"]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:warped_fungus_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Wooden Staff\",\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"Max Spells: [1]\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Mana Consumption: [x5]\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,Damage:500,CustomModelData:100001,Spells:[],SpellNo:[1],MaxSpells:[1],ItemID:[\"wooden_staff\"],tags:[\"casting_tool\"]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

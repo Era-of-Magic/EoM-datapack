@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:warped_fungus_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Blood Dagger\",\"italic\":false}',Lore:['{\"text\":\"\"}','{\"text\":\"Be careful, you might\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"cut yourself if you hold\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"the dagger like that.\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:2,ItemID:[\"blood_dagger\"],tags:[\"usable_item\"],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;-1784570019,-1602075870,-1547597021,-1977360341],Slot:\"mainhand\"}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

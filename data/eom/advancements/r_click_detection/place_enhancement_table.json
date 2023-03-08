@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:ghast_spawn_egg"
+                    ],
+                    "nbt": "{ItemID:[\"enhancement_table\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "eom:custom_blocks/enhancement_table/revoke_adv"
+    }
+}

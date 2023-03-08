@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "player": {},
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "minecraft:barrel"
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "eom:custom_blocks/check_use/barrel"
+    }
+}

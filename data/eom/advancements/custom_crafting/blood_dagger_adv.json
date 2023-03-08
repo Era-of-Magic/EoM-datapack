@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "eom:blood_dagger"
+            }
+        }
+    },
+    "rewards": {
+        "function": "eom:cutom_crafting_recipes/craft_blood_dagger"
+    }
+}

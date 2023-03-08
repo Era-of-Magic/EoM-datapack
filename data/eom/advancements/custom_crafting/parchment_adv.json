@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "eom:parchment"
+            }
+        }
+    },
+    "rewards": {
+        "function": "eom:cutom_crafting_recipes/craft_parchment"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "chest": {
+                                    "nbt": "{Enhancement:[\"invincible\"]}"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:random_chance",
+                        "chance": 0.08
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "eom:abilities/enhancements/invincible"
+    }
+}

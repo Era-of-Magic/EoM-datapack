@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:warped_fungus_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Mechanical Gauntlet\",\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"Max Spells: [5]\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Mana Consumption: [x0.5]\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,Damage:50,CustomModelData:100003,Spells:[],SpellNo:[1],MaxSpells:[5],ItemID:[\"mechanical_gauntlet\"],tags:[\"casting_tool\"]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

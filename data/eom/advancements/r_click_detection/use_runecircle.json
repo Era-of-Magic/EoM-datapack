@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "use_rune_circle": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:armor_stand",
+                    "nbt": "{Tags:[\"runecircle\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "eom:runes/rune_transform_detection"
+    }
+}

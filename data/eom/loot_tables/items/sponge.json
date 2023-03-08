@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:ghast_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Sponge\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"Removes runecircles\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:1,ItemID:[\"sponge\"],EntityTag:{id:\"minecraft:area_effect_cloud\",Particle:\"splash\",NoGravity:1b,Radius:1f,Duration:1,Tags:[\"chalkremover\"]}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

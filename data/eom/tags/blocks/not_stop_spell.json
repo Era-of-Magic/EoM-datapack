@@ -1,0 +1,18 @@
+{
+    "replace": false,
+    "values": [
+        "#eom:air",
+        "#minecraft:fences",
+        "#minecraft:fence_gates",
+        "minecraft:iron_bars",
+        "#eom:plants",
+        "#minecraft:signs",
+        "#minecraft:buttons",
+        "#minecraft:fire",
+        "#minecraft:flower_pots",
+        "#minecraft:pressure_plates",
+        "#minecraft:rails",
+        "#minecraft:banners",
+        "minecraft:water"
+    ]
+}

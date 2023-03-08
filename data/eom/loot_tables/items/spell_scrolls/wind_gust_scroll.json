@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:jigsaw",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Spell Scroll\",\"italic\":false}',Lore:['{\"text\":\" \"}','[{\"text\":\"Spell: [\",\"color\":\"gray\",\"italic\":false},{\"text\":\"Wind Gust\",\"color\":\"#D1FFAD\",\"italic\":false},{\"text\":\"]\",\"color\":\"gray\",\"italic\":false}]']},CustomModelData:1000,ItemID:[\"wind_gust_scroll\"],Enchantments:[{}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

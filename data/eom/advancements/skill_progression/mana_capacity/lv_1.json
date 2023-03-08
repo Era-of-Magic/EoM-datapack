@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:structure_void",
+            "nbt": "{CustomModelData:100003}"
+        },
+        "title": "Mana Capacity Lv.1",
+        "description": "You can regenerate up to 100 mana",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": true
+    },
+    "parent": "eom:skill_progression/root",
+    "criteria": {
+        "learn_skill": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "advancements": {
+                            "eom:skill_progression/root": true
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:potion"
+                    ],
+                    "nbt": "{ItemID:[\"small_mana_potion\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "eom:potions/small_mana_potion"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:jigsaw",
+    "biomes": [
+        "minecraft:plains",
+        "minecraft:birch_forest",
+        "minecraft:dark_forest",
+        "minecraft:forest",
+        "minecraft:old_growth_birch_forest",
+        "minecraft:old_growth_pine_taiga",
+        "minecraft:old_growth_spruce_taiga",
+        "minecraft:taiga",
+        "minecraft:snowy_taiga",
+        "minecraft:sparse_jungle",
+        "minecraft:jungle",
+        "minecraft:lush_caves",
+        "minecraft:windswept_forest",
+        "minecraft:windswept_gravelly_hills",
+        "minecraft:windswept_hills",
+        "minecraft:meadow"
+    ],
+    "step": "surface_structures",
+    "spawn_overrides": {},
+    "terrain_adaptation": "beard_thin",
+    "start_pool": "eom:altars",
+    "size": 1,
+    "start_height": {
+        "absolute": 0
+    },
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "max_distance_from_center": 10,
+    "use_expansion_hack": false
+}

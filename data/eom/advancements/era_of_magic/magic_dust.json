@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:jigsaw",
+            "nbt": "{CustomModelData:1}"
+        },
+        "title": "Magic Dust",
+        "description": "Get some Magic Dust from a Witch or by grinding a Mana Crystal",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "parent": "eom:era_of_magic/the_basis_of_magic",
+    "criteria": {
+        "crafting_altar_activator": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:jigsaw"
+                        ],
+                        "nbt": "{ItemID:[\"magic_dust\"]}"
+                    }
+                ]
+            }
+        }
+    }
+}

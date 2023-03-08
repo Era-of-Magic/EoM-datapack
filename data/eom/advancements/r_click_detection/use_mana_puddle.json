@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:amethyst_block"
+            }
+        }
+    },
+    "rewards": {
+        "function": "eom:custom_entities/interactions/mana_puddle/revoke"
+    }
+}

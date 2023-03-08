@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:structure_void",
+            "nbt": "{CustomModelData:100004}"
+        },
+        "title": "Mana Regenration Lv.5",
+        "description": "You can regenerate 30 mana per second",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": true
+    },
+    "parent": "eom:skill_progression/mana_regen/lv_4",
+    "criteria": {
+        "learn_skill": {
+            "trigger": "impossible"
+        }
+    }
+}

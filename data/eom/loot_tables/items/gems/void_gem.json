@@ -1,0 +1,23 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:jigsaw",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Void Gem\",\"color\":\"#870087\",\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"A magic stone containing\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"the element of void\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:100007,ItemID:[\"void_gem\"]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

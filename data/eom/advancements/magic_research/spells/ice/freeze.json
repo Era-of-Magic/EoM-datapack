@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ice"
+        },
+        "title": "Freeze   ",
+        "description": "You learned the Freeze spell\n\nDamage: 2\nDistance: ..50\nDuration: 5 sec\nBase Cost: 7",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "parent": "eom:magic_research/spells/ice_element",
+    "criteria": {
+        "learn_spell": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

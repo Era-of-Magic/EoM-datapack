@@ -1,0 +1,28 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "EAC",
+        "LBL",
+        "BBB"
+    ],
+    "key": {
+        "E": {
+            "item": "minecraft:enchanted_book"
+        },
+        "A": {
+            "item": "minecraft:amethyst_shard"
+        },
+        "C": {
+            "item": "minecraft:candle"
+        },
+        "L": {
+            "item": "minecraft:lapis_block"
+        },
+        "B": {
+            "item": "minecraft:deepslate_bricks"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}

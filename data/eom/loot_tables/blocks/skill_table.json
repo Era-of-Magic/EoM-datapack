@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:ghast_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Magic Table\",\"color\":\"white\",\"italic\":false}'},CustomModelData:100,ItemID:[\"skill_table\"],EntityTag:{id:\"minecraft:marker\",Tags:[\"new_skill_table\"]}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

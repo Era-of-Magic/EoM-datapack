@@ -1,0 +1,23 @@
+
+function eom:custom_blocks/skill_table/functionality/pages/filll_with_empty_item
+
+item replace block ~ ~-1 ~ container.26 with structure_void{display:{Name:'{"text":""}'},CustomModelData:102,Page:"static"}
+
+item replace block ~ ~-1 ~ container.0 with structure_void{CustomModelData:100006,Page:"static"}
+execute store result score temp researchpoints run scoreboard players get @p[tag=in_skill_table_gui] researchpoints
+item modify block ~ ~-1 ~ container.0 eom:skill_table/show_research_points
+
+item replace block ~ ~-1 ~ container.9 with structure_void{display:{Name:'{"text":"previous page","color":"white","italic": false}'},CustomModelData:100011,Page:"previous"}
+item replace block ~ ~-1 ~ container.10 with structure_void{display:{Name:'{"text":"next page","color":"white","italic": false}'},CustomModelData:100012,Page:"next"}
+
+item replace block ~ ~-1 ~ container.19 with structure_void{display:{Name:'{"text":"down","color":"white","italic": false}'},CustomModelData:100014,Page:"static"}
+
+item replace block ~ ~-1 ~ container.18 with structure_void{display:{Name:'{"text":"back","color":"red","italic": false}',Lore:['{"text":""}','[{"text":"Current Page: ","color":"gray"},{"text":"Light Element Spell Research","color":"white"}]']},CustomModelData:100100,Page:"back"}
+
+# Locked Spells
+item replace block ~ ~-1 ~ container.5 with structure_void{display:{Name:'{"text":"Temp Light","color":"white","underlined":true,"italic":false}',Lore:['{"text":""}','{"text":"Requirements:","color":"red","italic":false,"bold":true}','{"text":"- 1 Research Points","color":"gray","italic":false}','{"text":""}','{"text":"Info:","color":"blue","italic":false,"bold":true}','{"text":"You can place a light source that","color":"gray","italic":false}','{"text":"spends you light for a short moment","color":"gray","italic":false}','{"text":""}','{"text":"Stats:","color":"yellow","italic":false,"bold":true}','{"text":"Distance: ..5","color":"gray","italic":false}','{"text":"Duration: 20 sec","color":"gray","italic":false}','{"text":"Base Cost: 20","color":"gray","italic":false}']},CustomModelData:2,Page:"temp_light"}
+item replace block ~ ~-1 ~ container.21 with structure_void{display:{Name:'{"text":"Starfall","color":"white","underlined":true,"italic":false}',Lore:['{"text":""}','{"text":"Requirements:","color":"red","italic":false,"bold":true}','{"text":"- 5 Research Points","color":"gray","italic":false}','{"text":"- Unlock Temp Light","color":"gray","italic":false}','{"text":"- Unlock Rock Throw","color":"gray","italic":false}','{"text":""}','{"text":"Info:","color":"blue","italic":false,"bold":true}','{"text":"You call a powerful Star to fall","color":"gray","italic":false}','{"text":"onto your enemies to destroy them","color":"gray","italic":false}','{"text":""}','{"text":"Stats:","color":"yellow","italic":false,"bold":true}','{"text":"Damage: 10","color":"gray","italic":false}','{"text":"Distance: ..20","color":"gray","italic":false}','{"text":"AoE: 10","color":"gray","italic":false}','{"text":"Base Cost: 300","color":"gray","italic":false}']},CustomModelData:2,Page:"starfall"}
+
+# Spells
+execute if entity @p[tag=in_skill_table_gui,tag=temp_light] run item replace block ~ ~-1 ~ container.5 with structure_void{display:{Name:'{"text":"Temp Light","color":"white","underlined":true,"italic":false}',Lore:['{"text":""}','{"text":"Info:","color":"blue","italic":false,"bold":true}','{"text":"You can place a light source that","color":"gray","italic":false}','{"text":"spends you light for a short moment","color":"gray","italic":false}','{"text":""}','{"text":"Stats:","color":"yellow","italic":false,"bold":true}','{"text":"Distance: ..5","color":"gray","italic":false}','{"text":"Duration: 20 sec","color":"gray","italic":false}','{"text":"Base Cost: 20","color":"gray","italic":false}']},CustomModelData:200600,Page:"static"}
+execute if entity @p[tag=in_skill_table_gui,tag=starfall] run item replace block ~ ~-1 ~ container.21 with structure_void{display:{Name:'{"text":"Starfall","color":"white","underlined":true,"italic":false}',Lore:['{"text":""}','{"text":"Info:","color":"blue","italic":false,"bold":true}','{"text":"You call a powerful Star to fall","color":"gray","italic":false}','{"text":"onto your enemies to destroy them","color":"gray","italic":false}','{"text":""}','{"text":"Stats:","color":"yellow","italic":false,"bold":true}','{"text":"Damage: 10","color":"gray","italic":false}','{"text":"Distance: ..20","color":"gray","italic":false}','{"text":"AoE: 10","color":"gray","italic":false}','{"text":"Base Cost: 300","color":"gray","italic":false}']},CustomModelData:200601,Page:"static"}

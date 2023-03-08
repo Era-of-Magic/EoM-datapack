@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:structure_void",
+            "nbt": "{CustomModelData:100003}"
+        },
+        "title": "Mana Capacity Lv.10",
+        "description": "You can regenerate up to 1000 mana",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": true
+    },
+    "parent": "eom:skill_progression/mana_capacity/lv_9",
+    "criteria": {
+        "learn_skill": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

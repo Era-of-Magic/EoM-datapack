@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:jigsaw",
+            "nbt": "{CustomModelData:4}"
+        },
+        "title": "Magic Researche",
+        "description": "All your research progress will be displayed here",
+        "background": "eom:textures/custom_background/research_background.png",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "craft_skill_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:ghast_spawn_egg"
+                        ],
+                        "nbt": "{ItemID:[\"skill_table\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "eom:magic_level/become_a_magician"
+    }
+}

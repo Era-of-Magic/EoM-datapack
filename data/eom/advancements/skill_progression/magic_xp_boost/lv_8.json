@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:structure_void",
+            "nbt": "{CustomModelData:100016}"
+        },
+        "title": "Magic XP Boost Lv.8",
+        "description": "You get +105% extra magic xp",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": true
+    },
+    "parent": "eom:skill_progression/magic_xp_boost/lv_7",
+    "criteria": {
+        "learn_skill": {
+            "trigger": "impossible"
+        }
+    }
+}

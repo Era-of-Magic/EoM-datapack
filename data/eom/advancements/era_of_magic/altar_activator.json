@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:structure_block",
+            "nbt": "{CustomModelData:100100}"
+        },
+        "title": "Altar Activator",
+        "description": "Craft a Magic Altar Activator",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "parent": "eom:era_of_magic/magic_dust",
+    "criteria": {
+        "crafting_altar_activator": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:structure_block"
+                        ],
+                        "nbt": "{ItemID:[\"crafting_altar_activator\"]}"
+                    }
+                ]
+            }
+        }
+    }
+}

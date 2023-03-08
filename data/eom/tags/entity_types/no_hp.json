@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:player",
+    "#eom:no_hp_no_player"
+  ]
+}

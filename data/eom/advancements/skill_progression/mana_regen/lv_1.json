@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:structure_void",
+            "nbt": "{CustomModelData:100004}"
+        },
+        "title": "Mana Regenration Lv.1",
+        "description": "You can regenerate 1 mana per second",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": true
+    },
+    "parent": "eom:skill_progression/root",
+    "criteria": {
+        "learn_skill": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "advancements": {
+                            "eom:skill_progression/root": true
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

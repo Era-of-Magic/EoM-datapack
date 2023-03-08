@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:purple_stained_glass_pane"
+    },
+    "title": "Magic Wall      ",
+    "description": "You learned the Magic Wall spell\n\nDistance: 3\nDuration: 10 sec\nBase Cost: 1/4 of max",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "eom:magic_research/spells/pure_element",
+  "criteria": {
+    "learn_spell": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

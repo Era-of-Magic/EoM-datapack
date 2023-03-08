@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "BB ",
+    "BB ",
+    "BB "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bone_meal"
+      }
+    },
+  "result": {
+    "item": "minecraft:knowledge_book"
+  }
+}

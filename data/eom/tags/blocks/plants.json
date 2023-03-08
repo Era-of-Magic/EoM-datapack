@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+        "#minecraft:saplings",
+        "minecraft:grass",
+        "minecraft:tall_grass",
+        "minecraft:sea_pickle",
+        "minecraft:seagrass",
+        "minecraft:tall_seagrass",
+        "#minecraft:small_flowers",
+        "#minecraft:banners",
+        "#minecraft:coral_plants",
+        "#minecraft:crops",
+        "#minecraft:flowers",
+        "#minecraft:leaves"
+    ]
+}

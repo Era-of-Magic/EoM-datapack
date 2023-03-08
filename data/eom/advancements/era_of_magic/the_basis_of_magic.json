@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:jigsaw",
+            "nbt": "{CustomModelData:8}"
+        },
+        "title": "The Basis of Magic",
+        "description": "Find a Mana Puddle and place an Amethyst block inside",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "parent": "eom:era_of_magic/root",
+    "criteria": {
+        "cmd": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

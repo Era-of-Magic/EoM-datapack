@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:ghast_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Enhancement Table\",\"color\":\"white\",\"italic\":false}'},CustomModelData:101,ItemID:[\"enhancement_table\"],EntityTag:{id:\"minecraft:marker\",Tags:[\"new_enhancement_table\"]}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
