@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:structure_void",
+            "nbt": "{CustomModelData:100023}"
+        },
+        "title": "Registred Data Packs",
+        "description": "Here are all datapacks that have explicit compatibility with or are required to use Era of Magic.\n\nGoals are required datapacks and tasks are optional additions.",
+        "background": "minecraft:textures/block/bookshelf.png",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

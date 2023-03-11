@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:structure_void",
+            "nbt": "{CustomModelData:5}"
+        },
+        "title": "Health Display",
+        "description": "",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "parent": "eom:dp_registration/root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

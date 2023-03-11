@@ -5,24 +5,7 @@ tellraw @a [{"text":"\n-=#=-=#=-=#=-=#=-=#=-=#=-=#=-\n\n","color":"dark_purple",
 
 
 # # # Registere Datapacks # # #
-scoreboard objectives remove Registered.Datapacks 
-scoreboard objectives add Registered.Datapacks dummy
-
-function angelcore:load
-function health_display:register
-
-
-tellraw @a [{"text":"\n\n======","color":"gray"},{"text":"Register Known Data Packs","color":"aqua"},{"text":"======\n","color":"gray"}]
-tellraw @a {"text":"-----------------------------------","color":"gray"}
-
-execute if score Angel.Core Registered.Datapacks matches 1 run tellraw @a [{"text":"AngelCore library Registered","color":"green"},{"text":"\n-----------------------------------","color":"gray"}]
-execute unless score Angel.Core Registered.Datapacks matches 1 run tellraw @a [{"text":"Missing dependency: AngelCore","color":"red"},{"text":"\n-----------------------------------","color":"gray"}]
-execute unless score Angel.Core Registered.Datapacks matches 1 run datapack disable "file/EoM"
-
-execute if score Health.Display Registered.Datapacks matches 1 run tellraw @a [{"text":"Health Display Registered","color":"green"},{"text":"\n-----------------------------------","color":"gray"}]
-execute unless score Health.Display Registered.Datapacks matches 1 run tellraw @a [{"text":"Health Display not found","color":"#ff4000"},{"text":"\n-----------------------------------","color":"gray"}]
-
-tellraw @a {"text":"\n"}
+function eom:register_datapacks
 
 
 
@@ -42,10 +25,6 @@ function eom:start_schedules
 
 
 # # # Scoreboards # # #
-
-# Datapack ID
-scoreboard objectives add data.pack.id dummy
-scoreboard players set Era.of.Magic data.pack.id 1
 
 # Player Trigger
 scoreboard objectives add player.stats trigger {"text":"Player Stats","color":"gold"}
