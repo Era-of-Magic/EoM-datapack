@@ -1,0 +1,37 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": [
+                                "minecraft:flint_and_steel"
+                            ]
+                        },
+                        "offhand": {
+                            "items": [
+                                "minecraft:jigsaw"
+                            ],
+                            "nbt": "{ItemID:[\"magic_dust\"]}"
+                        }
+                    }
+                },
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "minecraft:candle"
+                        ],
+                        "state": {
+                            "candles": 2
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "eom:custom_blocks/enhancement_table/creation/check_structure"
+    }
+}

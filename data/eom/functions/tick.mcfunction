@@ -24,6 +24,7 @@ execute as @e[type=item,tag=magic_xp] at @s if entity @p[tag=magician,distance=.
 
 
 
+
 # # # Trigger Commands # # #
 execute as @a run function eom:trigger_commands/check_trigger
 

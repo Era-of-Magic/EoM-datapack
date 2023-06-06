@@ -13,3 +13,5 @@ scoreboard players operation dy temp -= y temp
 scoreboard players operation dz temp -= z temp
 
 kill
+
+
