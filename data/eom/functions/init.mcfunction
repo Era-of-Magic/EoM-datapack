@@ -3,9 +3,6 @@ execute unless score Server datapack.active matches 1.. run function eom:load
 
 scoreboard players reset @s playerlogout
 
-title @s times 5 10 5
-title @s title {"text": "Ready to play!","color": "#00AA0F"}
-
 execute as @a unless score @s ID matches 1.. run function eom:get_id
 
 execute as @s[tag=magician,tag=!magicstats_are_set] run function eom:magic_level/reset_magic

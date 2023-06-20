@@ -6,14 +6,15 @@ execute as @a[tag=!startcomplete] at @s run function eom:init
 
 
 # Display Stats #
-execute as @a[tag=magician] run title @s actionbar [{"text":"Magic Lv.","color":"dark_blue","bold":true,"italic":false},{"text":"[","color":"gold"},{"score":{"name":"*","objective":"magiclevel"},"color":"dark_red"},{"text":"]","color":"gold"},{"text":" | ","color":"black"},{"text":"Xp","color":"dark_blue"},{"text":"[","color":"gold"},{"score":{"name":"*","objective":"magicxp"},"color":"dark_red"},{"text":"/","color":"red"},{"score":{"name":"*","objective":"magicxpmax"},"color":"dark_red"},{"text":"]","color":"gold"},{"text":" | ","color":"black"},{"text":"\uE100","font":"eom:stats_display","color":"white"},{"text":"[","color":"aqua"},{"score":{"name":"*","objective":"mana"},"color":"dark_red"},{"text":"]","color":"aqua"},{"text":" | ","color":"black"},{"text":"\uE101","font":"eom:stats_display","color":"white"},{"text":"[","color":"aqua"},{"score":{"name":"*","objective":"manaexhaustion"},"color":"dark_red"},{"text":"]","color":"aqua"}]
+#execute as @a[tag=magician] run title @s actionbar [{"text":"","font":"minecraft:default"},{"text":"\uf000","font":"spell_assembly:util"},{"text":"Magic Lv.","color":"dark_blue","bold":true,"italic":false},{"text":"[","color":"gold"},{"score":{"name":"*","objective":"magiclevel"},"color":"dark_red"},{"text":"]","color":"gold"},{"text":" | ","color":"black"},{"text":"Xp","color":"dark_blue"},{"text":"[","color":"gold"},{"score":{"name":"*","objective":"magicxp"},"color":"dark_red"},{"text":"/","color":"red"},{"score":{"name":"*","objective":"magicxpmax"},"color":"dark_red"},{"text":"]","color":"gold"},{"text":" | ","color":"black"},{"text":"\uE100","font":"eom:stats_display","color":"white"},{"text":"[","color":"aqua"},{"score":{"name":"*","objective":"mana"},"color":"dark_red"},{"text":"]","color":"aqua"},{"text":" | ","color":"black"},{"text":"\uE101","font":"eom:stats_display","color":"white"},{"text":"[","color":"aqua"},{"score":{"name":"*","objective":"manaexhaustion"},"color":"dark_red"},{"text":"]","color":"aqua"}]
+
 
 
 # # # Manage Mana # # #
 
 # Fill mana
-execute as @a[tag=magician] if score @s mana < @s manamax run scoreboard players operation @s manaupcount += @s manafillrate
-execute as @a[tag=magician] if score @s manaupcount matches 20.. run function eom:mana/fill_mana
+#execute as @a[tag=magician] if score @s mana < @s manamax run scoreboard players operation @s manaupcount += @s manafillrate
+#execute as @a[tag=magician] if score @s manaupcount matches 20.. run function eom:mana/fill_mana
 
 
 
@@ -21,7 +22,6 @@ execute as @a[tag=magician] if score @s manaupcount matches 20.. run function eo
 
 # Magic Xp
 execute as @e[type=item,tag=magic_xp] at @s if entity @p[tag=magician,distance=..1.3] run function eom:magic_level/pickup_xp/store_xp
-
 
 
 
@@ -75,5 +75,4 @@ execute as @e[type=!#eom:no_hp,tag=!nomobchange] at @s run function eom:custom_e
 # Burning Skull
 #execute as @e[type=skeleton,tag=burningskull,tag=hitbox] at @s run execute store result bossbar burningskull value run data get entity @s Health 1
 #execute as @e[type=armor_stand,tag=burningskull,tag=head] at @s unless entity @e[type=skeleton,tag=burningskull,tag=hitbox,distance=..1] run bossbar remove burningskull
-
 
